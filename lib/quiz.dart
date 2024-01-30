@@ -26,7 +26,15 @@ class _QuizState extends State<Quiz> {
         'answers': ['Baleia Azul', 'Caranguejo', 'Tartaruga Marinha', 'Estrela do Mar'],
         'correctAnswer': 'Tartaruga Marinha'
     },
+
+  {
+      'question':
+          'Qual desses mamíferos marinhos é considerado o maior animal do planeta?',
+      'answers': ['Golfinho', 'Orca', 'Baleia Azul', 'Tubarão-baleia'],
+      'correctAnswer': 'Baleia Azul'
+    },
   ];
+
 
   void nextQuestion() {
     if (currentQuestionIndex < questions.length - 1) {
