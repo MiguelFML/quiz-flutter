@@ -25,7 +25,7 @@ class _PaginaDeParabensState extends State<PaginaDeParabens> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Parabéns, você concluiu o quiz!', style: GoogleFonts.roboto(fontWeight: FontWeight.bold, fontSize: 18)),
+            Text('Parabéns, você finalizou o quiz!!!', style: GoogleFonts.roboto(fontWeight: FontWeight.bold, fontSize: 18)),
           ],
         ),
       ),
